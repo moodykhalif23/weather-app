@@ -1,35 +1,66 @@
-# Getting Started with Create React App
+# WeatherWise 🌦️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive weather application built with React and OpenWeatherMap API, featuring current weather, 5-day forecast, and search history.
 
-## Available Scripts
+## Features ✨
 
-In the project directory, you can run:
+- 🌍 Current weather conditions for any city
+- 📅 5-day weather forecast
+- 🌡️ Temperature unit toggle (Celsius/Fahrenheit)
+- ⏳ Search history with local storage
+- 🌀 Loading animations
+- 📱 Responsive design
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- OpenWeatherMap API key
 
-### `npm run build`
+## Installation 🛠️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
+```bash
+git clone https://github.com/<your-username>/weather-app.git
+cd weather-app
+Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy
+npm install
+Set up API key
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create .env file in root directory
 
-### `npm run eject`
+env
+Copy
+REACT_APP_OPENWEATHERMAP_API_KEY=your_api_key_here
+Run the application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+npm start
+Configuration ⚙️
+Obtaining API Key
+Create free account at OpenWeatherMap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navigate to API Keys
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copy your API key and add to .env file
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Environment Variables
+Variable Name	Description
+REACT_APP_OPENWEATHERMAP_API_KEY	Your OpenWeatherMap API key
+Available Scripts 📜
+npm start: Runs app in development mode
 
-ADD .env to the root directory and set your api keys [REACT_APP_OPENWEATHERMAP_API_KEY= "Your API keys"]
+npm build: Builds app for production
 
+npm test: Launches test runner
+
+npm eject: Ejects Create React App config (not recommended)
+
+Contributing 🤝
+Fork the project
+
+Create your feature branch
