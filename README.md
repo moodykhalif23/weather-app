@@ -32,9 +32,3 @@ Set up API key
 Copy your API key and add to .env file
 REACT_APP_OPENWEATHERMAP_API_KEY=your_api_key_here
 
-Configuration ⚙️
-
-
-Contributing 🤝
-Fork the project
-Create your feature branch
