@@ -6,10 +6,8 @@ A responsive weather application built with React and OpenWeatherMap API, featur
 
 - 🌍 Current weather conditions for any city
 - 📅 5-day weather forecast
-- 🌡️ Temperature unit toggle (Celsius/Fahrenheit)
+- 🌡️ Temperature unit toggle
 - ⏳ Search history with local storage
-- 🌀 Loading animations
-- 📱 Responsive design
 
 ## Prerequisites
 
@@ -21,7 +19,7 @@ A responsive weather application built with React and OpenWeatherMap API, featur
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/weather-app.git
+git clone https://github.com/moodykhalif23/weather-app.git
 cd weather-app
 **Install dependencies**
 npm install
@@ -30,5 +28,4 @@ To start the server "npm start"
 Create .env file in root directory
 Set up API key
 Copy your API key and add to .env file
-REACT_APP_OPENWEATHERMAP_API_KEY=your_api_key_here
-
+REACT_APP_OPENWEATHERMAP_API_KEY=<your_api_key>
